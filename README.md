@@ -37,31 +37,24 @@ python3 -m http.server 8000
 
 ## Deploy to GitHub Pages
 
-**Option A — user site (recommended, gives you `kinseyreed.github.io`):**
-
 This folder is already a git repository with everything committed on the `main` branch, so
-deploying is just two commands once you've made the empty GitHub repo.
+deploying is just a couple of commands once you've made the empty GitHub repo.
 
-1. On GitHub, create a new **public** repo named exactly **`kinseyreed.github.io`**.
+1. On GitHub, create a new **public** repo named exactly **`kinseyreedclose`**.
    Do NOT add a README, .gitignore, or license (leave it empty).
 2. From this folder, connect it and push:
    ```bash
    cd "/Users/kyreed/Desktop/Claude/website"
-   git remote add origin https://github.com/kinseyreed/kinseyreed.github.io.git
+   git remote add origin https://github.com/kinseyreed/kinseyreedclose.git
    git push -u origin main
    ```
-3. Your site goes live at **https://kinseyreed.github.io** within a minute or two.
-   (If it doesn't appear, check repo → Settings → Pages → Source = `main` / `/root`.)
+3. Turn on Pages: repo → **Settings → Pages** → *Build and deployment* →
+   Source: **Deploy from a branch**, Branch: **main**, folder **/ (root)** → **Save**.
+4. Your site goes live at **https://kinseyreed.github.io/kinseyreedclose/** within a minute or two.
 
 Your existing apps stay where they are — `kinseyreed.github.io/appalachian-pasture-planner/`
-and `kinseyreed.github.io/identikit/` are separate project repos and are unaffected.
-
-**Option B — project site (URL like `username.github.io/website`):**
-
-1. Push these files to any repo (e.g. `personal-site`).
-2. Repo → **Settings → Pages** → *Build and deployment* → Source: **Deploy from a branch**,
-   Branch: **main**, folder **/ (root)** → Save.
-3. Live at `https://<your-username>.github.io/<repo-name>/`.
+and `kinseyreed.github.io/identikit/` are separate project repos and are unaffected. All links
+in this site are relative, so it works correctly under the `/kinseyreedclose/` subpath.
 
 **Custom domain (optional):** if you buy e.g. `kinseyreedclose.com`, add a file named `CNAME`
 containing just the domain, then set the DNS records shown in Settings → Pages.
