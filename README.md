@@ -39,18 +39,22 @@ python3 -m http.server 8000
 
 **Option A — user site (recommended, gives you `kinseyreed.github.io`):**
 
-1. Create a GitHub account/repo named **`<your-username>.github.io`** (e.g. `kinseyreed.github.io`).
-2. Upload the contents of this `website/` folder to the repo root (so `index.html` is at the top level).
-   - Via the web UI: repo → *Add file* → *Upload files* → drag everything in.
-   - Or via git:
-     ```bash
-     cd website
-     git init && git add . && git commit -m "Initial site"
-     git branch -M main
-     git remote add origin https://github.com/<your-username>/<your-username>.github.io.git
-     git push -u origin main
-     ```
-3. Your site goes live at `https://<your-username>.github.io` within a minute or two.
+This folder is already a git repository with everything committed on the `main` branch, so
+deploying is just two commands once you've made the empty GitHub repo.
+
+1. On GitHub, create a new **public** repo named exactly **`kinseyreed.github.io`**.
+   Do NOT add a README, .gitignore, or license (leave it empty).
+2. From this folder, connect it and push:
+   ```bash
+   cd "/Users/kyreed/Desktop/Claude/website"
+   git remote add origin https://github.com/kinseyreed/kinseyreed.github.io.git
+   git push -u origin main
+   ```
+3. Your site goes live at **https://kinseyreed.github.io** within a minute or two.
+   (If it doesn't appear, check repo → Settings → Pages → Source = `main` / `/root`.)
+
+Your existing apps stay where they are — `kinseyreed.github.io/appalachian-pasture-planner/`
+and `kinseyreed.github.io/identikit/` are separate project repos and are unaffected.
 
 **Option B — project site (URL like `username.github.io/website`):**
 
