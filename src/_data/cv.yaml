@@ -1,0 +1,130 @@
+# ============================================================
+#  CV PAGE
+#  Dated lists use: title / sub / date. Plain lists are simple text (may hold light HTML).
+# ============================================================
+
+head:
+  eyebrow: "Curriculum Vitae"
+  title: "Kinsey Reed Close, PhD"
+  intro_html: "Postdoctoral Researcher · Morrissey Microbial Ecology, Biogeochemistry &amp; Soil Health Lab, West Virginia University. Full CV below — a downloadable PDF is also available."
+  pdf: "assets/Kinsey_Reed_Close_CV.pdf"      # upload a new PDF to replace it
+  pdf_label: "Download CV (PDF)"
+
+education:
+  - title: "Ph.D., Plant &amp; Soil Science — West Virginia University"
+    sub_html: "Emphasis in Applied &amp; Environmental Microbiology · GPA 4.0<br>Dissertation: <em>Microbial and plant biodiversity in Appalachian agroecosystems and their implications for soil health</em>"
+    date: "Dec 2025"
+  - title: "B.S., Animal &amp; Nutritional Sciences · B.S., Applied &amp; Environmental Microbiology"
+    sub_html: "West Virginia University · Summa cum laude"
+    date: "May 2019"
+
+positions:
+  - { title: "Postdoctoral Researcher, Morrissey Lab", sub: "West Virginia University, Morgantown, WV", date: "2025–Present" }
+  - { title: "GRASS Project Soil Health Specialist &amp; Interim Program Coordinator", sub: "WVU Extension Small Farms Center, Morgantown, WV", date: "2024–Present" }
+  - { title: "Ruby Distinguished Doctoral Fellow", sub: "West Virginia University, Morgantown, WV", date: "2020–2024" }
+  - { title: "Farm Worker", sub: "Rivendale Farm, Bulger, PA", date: "2019" }
+  - { title: "Undergraduate Research Assistant, Freedman Lab", sub: "West Virginia University, Morgantown, WV", date: "2017–2019" }
+
+awards:
+  - { title: "Nath Graduate Student Travel Award ($1,500)", date: "2025" }
+  - { title: "Oak Spring Garden Foundation Plant Conservation Biology Fellowship ($10,000)", date: "Mar 2025" }
+  - { title: "Ruby Distinguished Doctoral Fellowship (~$150,000)", date: "2020–2023" }
+  - { title: "ASA, CSSA, SSSA International Annual Meeting — 2nd Place PhD Oral Contest", date: "2024" }
+  - { title: "3 Minute Thesis Finalist, WVU", date: "2024" }
+  - { title: "Davis College Research Day — 2nd Place PhD Talk", date: "2024" }
+  - { title: "Davis College Graduate Student Enhancement Grant ($1,000)", date: "2024" }
+  - { title: "Davis-Michael Scholarship ($12,000)", date: "2015–2019" }
+  - { title: "WV STEM Scholarship ($9,000)", date: "2015–2018" }
+  - { title: "WV Promise Scholarship ($19,000)", date: "2015–2019" }
+  - { title: "WV Farm Bureau Scholarship ($2,000)", date: "2016–2018" }
+  - { title: "WVU President's List &amp; Dean's List", date: "2015–2019" }
+  - { title: "Outstanding Senior in Plant &amp; Soil Science; Outstanding Senior, WVU", date: "2019" }
+  - { title: "Berkeley Springs High School Valedictorian", date: "2015" }
+
+invited_talks:
+  - 'Reed K (Mar 2025). "Does plant diversity improve soil health &amp; carbon storage in pastoral agroecosystems?" Oak Spring Garden Foundation, Upperville, VA.'
+  - 'Reed K, Morrissey EM (Mar 2024). "Healthy Pastures, Healthy Soils, and Sustainable Grazing in Appalachia." Appalachian Grazing Conference, Morgantown, WV.'
+  - 'Reed K (Feb 2024). "GRazing Appalachia SuStainably (GRASS) Project." West Virginia Small Farms Conference, Charleston, WV.'
+  - 'Reed K et al. (Dec 2023). "Diversifying Appalachia''s pastures to improve soil health." WV Stockman''s College, Canaan Valley, WV.'
+  - 'Reed K et al. (Nov 2023). "Diversifying Appalachia''s pastures to improve soil health." WVU Extension ANR Unit Fall Meeting, Jackson''s Mill, WV.'
+  - 'Reed K et al. (Sep 2023). "Diversifying Appalachia''s pastures to improve soil health." WV Conservation Agency, Deep Sea Acres Field Day, Pinch, WV.'
+  - 'Reed K et al. (Aug 2022). "Diversifying Appalachia''s pastures to improve soil health." Organic Farm Field Day, Morgantown, WV.'
+  - 'Reed K, Morrissey EM (Mar 2022). "Plants, Microbes, and Soil Health in Appalachian Pastures." Appalachian Grazing Conference, Morgantown, WV.'
+
+presentations:
+  - '<span class="me">Reed Close K</span> et al. (Dec 2025). "Partnering with Appalachian farmers to diversify and manage pastures for increased soil carbon." [Oral] American Geophysical Union, New Orleans, LA.'
+  - '<span class="me">Reed Close K</span> (Nov 2025). "Microbial and plant biodiversity in Appalachian agroecosystems and their implications for soil health." [Doctoral Defense] WVU, Morgantown, WV.'
+  - 'Aird A, Reed K, Morrissey EM (Apr 2025). "Exploring the Link Between Diversity and Aggregate Stability." [Poster] WVU Undergraduate Research Symposium, Morgantown, WV.'
+  - 'Ozbolt R, Tripathi B, Reed K, Brzostek ER, Morrissey EM (Dec 2024). "Mycorrhiza–Saprotroph Interactions Shape Carbon Stabilization in Forest Soils." [Poster] AGU, Washington, D.C.'
+  - 'Reed K et al. (Nov 2024). "Pasture plant community composition and structure in West Virginia, USA." [Oral] ASA, CSSA, SSSA International Annual Meeting, San Antonio, TX.'
+  - 'LeMaster D, Reed K, Morrissey EM (Nov 2024). "Actinobacteria and Soil Stability in West Virginia Pastures." [Oral] ASA, CSSA, SSSA International Annual Meeting, San Antonio, TX.'
+  - 'Bentley H, Reed K, Morrissey EM (Nov 2024). "Enzymatic Activity in West Virginia Forage Soils." [Poster] ASA, CSSA, SSSA International Annual Meeting, San Antonio, TX.'
+  - 'Reed K et al. (Apr 2024). "Pasture plant community composition and structure in West Virginia." [Oral] Davis College Research Day, Morgantown, WV.'
+  - 'Reed K (Apr 2024). "Diversifying Pastures to Improve Livestock Production Sustainability." 3-Minute Thesis Competition, WVU.'
+  - 'Reed K (Feb 2024). "GRazing Appalachia SuStainably (GRASS) Project." [Poster] Conservation and Agriculture Day at the Capital, Charleston, WV.'
+  - 'LeMaster D, Reed K, Morrissey EM (Nov 2023). "How Grazing Intensity Impacts Soil Organic Matter and Aggregate Stability in West Virginia Pastures." [Poster] ASA, CSSA, SSSA International Annual Meeting, St. Louis, MO.'
+  - 'Reed K et al. (Mar 2023). "Diversifying Appalachia''s pastures to improve soil health." [Poster] WVU Davis College Graduate Student Conference, Morgantown, WV.'
+  - 'Morrissey EM, Dang C, Reed K, Brzostek ER, Walkup J, Pineiro J, Hungate B, Schwartz E (Nov 2021). "Connecting Microbial Biodiversity with Soil Carbon and Nitrogen Cycling Using Stable Isotopes." [Oral] ASA, CSSA, SSSA International Annual Meeting, Salt Lake City, UT.'
+  - 'Reed K (Oct 2021). "Diversifying West Virginia''s Pastures to Improve Soil Health." [Departmental Seminar] Division of Plant &amp; Soil Science, WVU.'
+  - 'Reed K, Morrissey EM (Aug 2021). "Advancing field-based techniques to identify microbial allies in nitrogen retention in agricultural soils." [Poster] Ecological Society of America Meeting.'
+  - 'Reed K (2020). "Measures of Assessing Soil Nitrogen." [Departmental Seminar] Division of Plant &amp; Soil Science, WVU.'
+
+teaching:
+  courses:
+    - "Plant–Microbe Interactions (3 cr, co-taught) · Biology 298C · <span class=\"e-date\">Fall 2026</span>"
+    - "Biology 117 (Principles of Biology) Honors Add-on (1 cr) · <span class=\"e-date\">Fall 2026</span>"
+  guest:
+    - 'Organic Farm Lecture Series — "Forage and grassland ecology" (Summer 2024)'
+    - 'Environmental Microbiology — "Sulphur cycle" (Fall 2023)'
+    - 'Environmental Microbiology — "Soil nitrogen cycling" (Fall 2022)'
+    - 'Environmental Microbiology — "Bioengineering" (Fall 2022)'
+    - "Microbes &amp; Global Change — Journal Discussion (Spring 2021)"
+  tutoring:
+    - "Davis College of Agriculture &amp; Natural Resources (2015–2019)"
+
+mentorship:
+  intro: "Undergraduate research mentees, West Virginia University:"
+  mentees:
+    - "Doreen Winter (2026–Present)"
+    - "Sapo Quintilla (2025–Present)"
+    - "Rebecca Ozbolt&nbsp;*&dagger; (2024–Present)"
+    - "Aidan Aird&nbsp;*&Dagger; (2023–2025)"
+    - "Damon LeMaster&nbsp;*&dagger; (2022–2024)"
+    - "Hannah Bentley&nbsp;*&Dagger; (2022–2024)"
+    - "Abigail Judy&nbsp;&Dagger; (2021)"
+    - "Akili Francis&nbsp;&dagger; (2021)"
+  note_html: "* Resulted in 1+ research poster presentations &nbsp;&dagger; Entered/completed a graduate research program &nbsp;&Dagger; Working in a related industry or nonprofit position"
+
+leadership:
+  - "President &amp; Founder, Plant &amp; Soil Science Graduate Student Association (2021–2023)"
+  - "Board Member, Davis Graduate Student Organization (2022–2023)"
+  - "President &amp; Founder, WVU Track Club (2016–2019)"
+
+service:
+  - "Co-reviewer, <em>Ecology</em>"
+  - "Reviewer, Oak Spring Garden Foundation Plant Conservation Biology Fellowship Applications (2025)"
+  - "Reviewer, Oak Spring Garden Foundation Interdisciplinary Residencies &amp; Fellowships Applications (2026)"
+
+societies:
+  - "Ecological Society of America"
+  - "American Geophysical Union"
+  - "Int'l Society for Microbial Ecology"
+  - "ASA, CSSA, SSSA"
+  - "Gamma Sigma Delta"
+  - "Mortar Board"
+  - "National Honor Society"
+
+certifications:
+  - "Certified Pharmacy Technician (WVBOP, 2020–Current)"
+  - "Hazardous Waste Training; Hazard Communication; Lab Safety (WVU EHS, 2017–Current)"
+  - "Research Security Training; Basic Animal Handling; Working with Cattle in Agricultural Research; Working with IACUC; Human Research — Social &amp; Behavioral Investigators; Agricultural Research &amp; Teaching (CITI, WVU)"
+  - "Greenhouse and Field Worker Protection Standard Training (WVU/EPA); Clery Act and Title IX (Vector)"
+  - "Purchasing Cardholder Ethics Certification (State of West Virginia)"
+
+references:
+  - { name: "Dr. Ember Morrissey", role: "Dissertation &amp; Postdoctoral Advisor", affil: "Associate Professor of Biology, West Virginia University" }
+  - { name: "Dr. James Kotcon", role: "PhD Committee Member &amp; Collaborator", affil: "Emeritus Professor of Nematology, West Virginia University" }
+  - { name: "Dr. Zachary Freedman", role: "Undergraduate Research Advisor", affil: "Assistant Professor of Soil Science, University of Wisconsin–Madison" }
+  - { name: "Dr. Edward Brzostek", role: "PhD Committee Member &amp; Collaborator", affil: "Associate Professor of Biology, West Virginia University" }
+  - { name: "Kevin Jones", role: "Farmer Research Cooperator", affil: "Owner-Operator, Deep Sea Acres Farm" }
+references_note: "Full reference contact details available upon request."

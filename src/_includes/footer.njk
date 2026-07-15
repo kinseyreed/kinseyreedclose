@@ -1,0 +1,24 @@
+  <footer class="footer" id="contact">
+    <div class="wrap">
+      <div>
+        <h3>{{ site.contact_heading }}</h3>
+        <p>{{ site.contact_blurb }}</p>
+        <ul class="contact-links">
+          <li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>LinkedIn: <a href="{{ site.linkedin_url }}" target="_blank" rel="noopener">{{ site.linkedin_label }}</a></li>
+          <li>ORCID: <a href="{{ site.orcid_url }}" target="_blank" rel="noopener">{{ site.orcid_id }}</a></li>
+          <li>ResearchGate: <a href="{{ site.researchgate_url }}" target="_blank" rel="noopener">{{ site.name }}</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul class="contact-links">
+          {% if page_id != "home" %}<li><a href="index.html">Home</a></li>{% endif %}
+          {% if page_id != "research" %}<li><a href="research.html">Research + Publications</a></li>{% endif %}
+          {% if page_id != "cv" %}<li><a href="cv.html">Curriculum Vitae</a></li>{% endif %}
+          {% if page_id != "outreach" %}<li><a href="outreach.html">Outreach + Media</a></li>{% endif %}
+        </ul>
+      </div>
+      <div class="fine">&copy; <span id="year"></span> {{ site.name }}, {{ site.suffix }} &middot; {{ site.location }}</div>
+    </div>
+  </footer>

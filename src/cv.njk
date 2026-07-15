@@ -1,0 +1,169 @@
+---
+layout: base.njk
+title: "CV — Kinsey Reed Close, PhD"
+description: "Curriculum vitae of Kinsey Reed Close, PhD — education, positions, awards, talks, teaching, mentorship, and service."
+page_id: cv
+permalink: "cv.html"
+---
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">{{ cv.head.eyebrow }}</p>
+      <h1>{{ cv.head.title }}</h1>
+      <p>{{ cv.head.intro_html | safe }}</p>
+      <p class="mt-1"><a class="btn on-dark" href="{{ cv.head.pdf }}">{{ cv.head.pdf_label }}</a></p>
+    </div>
+  </section>
+
+{% include "ridge.njk" %}
+
+  <section class="section">
+    <div class="wrap">
+
+      <!-- EDUCATION -->
+      <div class="block">
+        <h2>Education</h2>
+      {%- for e in cv.education %}
+        <div class="entry">
+          <div class="e-main">
+            <div class="e-title">{{ e.title | safe }}</div>
+            <div class="e-sub">{{ e.sub_html | safe }}</div>
+          </div>
+          <div class="e-date">{{ e.date }}</div>
+        </div>
+      {%- endfor %}
+      </div>
+
+      <!-- POSITIONS -->
+      <div class="block">
+        <h2>Positions Held</h2>
+      {%- for p in cv.positions %}
+        <div class="entry">
+          <div class="e-main">
+            <div class="e-title">{{ p.title | safe }}</div>
+            <div class="e-sub">{{ p.sub | safe }}</div>
+          </div>
+          <div class="e-date">{{ p.date }}</div>
+        </div>
+      {%- endfor %}
+      </div>
+
+      <!-- AWARDS -->
+      <div class="block">
+        <h2>Awards &amp; Recognitions</h2>
+      {%- for a in cv.awards %}
+        <div class="entry"><div class="e-main"><div class="e-title">{{ a.title | safe }}</div></div><div class="e-date">{{ a.date }}</div></div>
+      {%- endfor %}
+      </div>
+
+      <!-- INVITED TALKS -->
+      <div class="block">
+        <h2>Invited Talks &amp; Seminars</h2>
+        <ul class="tidy">
+        {%- for t in cv.invited_talks %}
+          <li>{{ t | safe }}</li>
+        {%- endfor %}
+        </ul>
+      </div>
+
+      <!-- PRESENTATIONS -->
+      <div class="block">
+        <h2>Conference &amp; Academic Presentations</h2>
+        <ul class="tidy">
+        {%- for t in cv.presentations %}
+          <li>{{ t | safe }}</li>
+        {%- endfor %}
+        </ul>
+      </div>
+
+      <!-- TEACHING -->
+      <div class="block">
+        <h2>Teaching</h2>
+        <h3 style="text-transform:uppercase;letter-spacing:.06em;font-size:1.05rem;color:var(--muted);">Courses</h3>
+        <ul class="tidy">
+        {%- for c in cv.teaching.courses %}
+          <li>{{ c | safe }}</li>
+        {%- endfor %}
+        </ul>
+        <h3 style="text-transform:uppercase;letter-spacing:.06em;font-size:1.05rem;color:var(--muted);margin-top:1.2rem;">Guest Lectures</h3>
+        <ul class="tidy">
+        {%- for c in cv.teaching.guest %}
+          <li>{{ c | safe }}</li>
+        {%- endfor %}
+        </ul>
+        <h3 style="text-transform:uppercase;letter-spacing:.06em;font-size:1.05rem;color:var(--muted);margin-top:1.2rem;">Tutoring</h3>
+        <ul class="tidy">
+        {%- for c in cv.teaching.tutoring %}
+          <li>{{ c | safe }}</li>
+        {%- endfor %}
+        </ul>
+      </div>
+
+      <!-- MENTORSHIP -->
+      <div class="block">
+        <h2>Mentorship</h2>
+        <p class="e-sub" style="margin-bottom:1rem;">{{ cv.mentorship.intro }}</p>
+        <ul class="tidy">
+        {%- for m in cv.mentorship.mentees %}
+          <li>{{ m | safe }}</li>
+        {%- endfor %}
+        </ul>
+        <p class="e-sub mt-1">{{ cv.mentorship.note_html | safe }}</p>
+      </div>
+
+      <!-- SERVICE + LEADERSHIP -->
+      <div class="grid-2">
+        <div class="block">
+          <h2>Leadership</h2>
+          <ul class="tidy">
+          {%- for l in cv.leadership %}
+            <li>{{ l | safe }}</li>
+          {%- endfor %}
+          </ul>
+        </div>
+        <div class="block">
+          <h2>Scholarly Service</h2>
+          <ul class="tidy">
+          {%- for s in cv.service %}
+            <li>{{ s | safe }}</li>
+          {%- endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <!-- SOCIETIES -->
+      <div class="block">
+        <h2>Society Memberships</h2>
+        <div class="pill-row">
+        {%- for s in cv.societies %}
+          <span class="pill">{{ s }}</span>
+        {%- endfor %}
+        </div>
+      </div>
+
+      <!-- CERTIFICATIONS -->
+      <div class="block">
+        <h2>Certifications &amp; Training</h2>
+        <ul class="tidy">
+        {%- for c in cv.certifications %}
+          <li>{{ c | safe }}</li>
+        {%- endfor %}
+        </ul>
+      </div>
+
+      <!-- REFERENCES -->
+      <div class="block">
+        <h2>References</h2>
+        <div class="grid-2">
+        {%- for r in cv.references %}
+          <div class="card">
+            <h3>{{ r.name }}</h3>
+            <p class="meta">{{ r.role | safe }}</p>
+            <p>{{ r.affil | safe }}</p>
+          </div>
+        {%- endfor %}
+        </div>
+        <p class="note mt-2">{{ cv.references_note }}</p>
+      </div>
+
+    </div>
+  </section>

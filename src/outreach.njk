@@ -1,0 +1,64 @@
+---
+layout: base.njk
+title: "Outreach & Media — Kinsey Reed Close, PhD"
+description: "Community outreach, science communication, media and press coverage of Kinsey Reed Close, PhD."
+page_id: outreach
+permalink: "outreach.html"
+---
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">{{ outreach.head.eyebrow }}</p>
+      <h1>{{ outreach.head.title }}</h1>
+      <p>{{ outreach.head.intro }}</p>
+    </div>
+  </section>
+
+{% include "ridge.njk" %}
+
+  <!-- OUTREACH -->
+  <section class="section">
+    <div class="wrap">
+      <div class="block">
+        <h2>{{ outreach.community.heading | safe }}</h2>
+        <ul class="tidy">
+        {%- for item in outreach.community.items %}
+          <li>{{ item | safe }}</li>
+        {%- endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section class="section alt">
+    <div class="wrap">
+      <div class="block">
+        <h2>{{ outreach.videos.heading | safe }}</h2>
+        <div class="grid-2">
+        {%- for v in outreach.videos.items %}
+          <div class="card">
+            <h3>{{ v.title | safe }}</h3>
+            <p class="meta">{{ v.meta }}</p>
+            <p><a href="{{ v.url }}" target="_blank" rel="noopener">{{ v.link_text }}</a></p>
+          </div>
+        {%- endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRESS -->
+  <section class="section">
+    <div class="wrap">
+    {%- for group in outreach.coverage %}
+      <div class="block">
+        <h2>{{ group.heading | safe }}</h2>
+        <ul class="tidy">
+        {%- for item in group.items %}
+          <li><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.text | safe }}</a></li>
+        {%- endfor %}
+        </ul>
+      </div>
+    {%- endfor %}
+    </div>
+  </section>

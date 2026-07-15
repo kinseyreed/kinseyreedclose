@@ -1,0 +1,93 @@
+---
+layout: base.njk
+title: "Kinsey Reed Close, PhD — Soil Health & Microbial Ecology"
+description: "Kinsey Reed Close, PhD — postdoctoral researcher in microbial ecology, plant biodiversity, and soil health in Appalachian agroecosystems at West Virginia University."
+page_id: home
+permalink: "index.html"
+---
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-panel">
+      <p class="eyebrow">{{ home.hero.eyebrow }}</p>
+      <h1>{{ home.hero.heading_html | safe }}</h1>
+      <div class="horizon" aria-hidden="true"><span></span><span></span><span></span></div>
+      <a class="hero-cv" href="cv.html">{{ home.hero.cv_label }}</a>
+      <p class="hero-keywords">
+      {%- for kw in home.hero.keywords -%}
+        {%- if not loop.first %} &nbsp;&middot;&nbsp; {% endif -%}
+        {%- if kw.emphasis %}<span>{{ kw.text }}</span>{%- else %}{{ kw.text }}{%- endif -%}
+      {%- endfor %}
+      </p>
+    </div>
+    <div class="hero-photo" style="--hero-img:url('{{ home.hero.image }}'); background-image:url('{{ home.hero.image }}')"></div>
+  </section>
+
+{% include "ridge.njk" %}
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap about">
+      <div class="portrait" style="--portrait-img:url('{{ home.about.portrait }}'); background-image:url('{{ home.about.portrait }}')"></div>
+      <div>
+        <p class="kicker">{{ home.about.kicker }}</p>
+        <h2>{{ home.about.heading }}</h2>
+        <div class="prose">
+        {%- for p in home.about.paragraphs %}
+          <p>{{ p | safe }}</p>
+        {%- endfor %}
+        </div>
+        <div class="pill-row">
+        {%- for pill in home.about.pills %}
+          <span class="pill">{{ pill }}</span>
+        {%- endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="section pine">
+    <div class="wrap">
+      <div class="stats">
+      {%- for s in home.stats %}
+        <div class="stat"><div class="num">{{ s.num }}</div><div class="lbl">{{ s.label }}</div></div>
+      {%- endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT I DO -->
+  <section class="section alt" id="focus">
+    <div class="wrap">
+      <p class="kicker">{{ home.focus.kicker }}</p>
+      <h2>{{ home.focus.heading }}</h2>
+      <p class="lead">{{ home.focus.lead }}</p>
+      <div class="grid-3 mt-2">
+      {%- for c in home.focus.cards %}
+        <div class="card">
+          <p class="meta">{{ c.meta }}</p>
+          <h3>{{ c.title | safe }}</h3>
+          <p>{{ c.body | safe }}</p>
+        </div>
+      {%- endfor %}
+      </div>
+      <p class="center mt-2"><a class="btn" href="research.html">Explore research &amp; publications</a></p>
+    </div>
+  </section>
+
+  <!-- CURRENT PROJECTS -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <p class="kicker">{{ home.projects.kicker }}</p>
+      <h2>{{ home.projects.heading }}</h2>
+      <div class="grid-2 mt-2">
+      {%- for c in home.projects.cards %}
+        <div class="card">
+          <p class="meta">{{ c.meta }}</p>
+          <h3>{{ c.title }}</h3>
+          <p>{{ c.body_html | safe }}</p>
+        </div>
+      {%- endfor %}
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,65 @@
+# ============================================================
+#  HOME PAGE CONTENT
+#  Tip: text in a "*_html" field may contain simple HTML tags.
+#  <em>word</em> = goldenrod italic; <strong>word</strong> = bold; <br> = line break.
+# ============================================================
+
+# ---- Hero (the big split banner) ----
+hero:
+  eyebrow: "Postdoctoral Researcher · West Virginia University"
+  heading_html: "From the<br><em>ground</em> up"   # <em> shows in goldenrod italic
+  image: "assets/hero.jpg"                          # the large photo on the right
+  cv_label: "View my CV →"
+  keywords:                                          # emphasis: true = goldenrod
+    - { text: "soil health", emphasis: true }
+    - { text: "microbial ecology", emphasis: false }
+    - { text: "plant biodiversity", emphasis: false }
+    - { text: "sustainable grazing", emphasis: true }
+    - { text: "soil carbon", emphasis: false }
+    - { text: "biogeochemistry", emphasis: false }
+    - { text: "Appalachian agroecosystems", emphasis: false }
+
+# ---- About Me ----
+about:
+  kicker: "About Me"
+  heading: "Bridging ecology and agronomy for healthier soils"
+  portrait: "assets/portrait.jpg"                    # the portrait photo
+  paragraphs:
+    - "I'm a soil scientist and microbial ecologist studying how plant and microbial biodiversity shape soil health in Appalachian agroecosystems. I completed my PhD in Plant &amp; Soil Science (with an emphasis in Applied &amp; Environmental Microbiology) at West Virginia University in 2025, and I now work as a postdoctoral researcher in the Morrissey Microbial Ecology, Biogeochemistry &amp; Soil Health Lab."
+    - "My research connects the organisms beneath our feet — bacteria, fungi, and the plants they partner with — to the practical questions farmers face: how do we build soil carbon, keep nutrients in the ground, and graze pastures sustainably? I work directly with Appalachian producers through the GRASS project and USDA-funded soil health trials, translating microbial ecology into on-the-farm practice."
+  pills:
+    - "Microbial Ecology"
+    - "Soil Carbon"
+    - "Stable Isotope Probing"
+    - "Pasture Diversity"
+    - "Soil Aggregate Stability"
+    - "Biogeochemistry"
+
+# ---- Stat band (four numbers on the dark green strip) ----
+stats:
+  - { num: "6+", label: "Peer-reviewed works" }
+  - { num: "$5.8M", label: "Grants supported" }
+  - { num: "135", label: "Farmers in the GRASS network" }
+  - { num: "17", label: "Farms in the NRCS soil health trial" }
+
+# ---- Research focus (three cards) ----
+focus:
+  kicker: "What I Do"
+  heading: "Research focus"
+  lead: "Understanding the living soil — and putting that knowledge to work for farmers and the land."
+  cards:
+    - { meta: "01", title: "Microbes &amp; Soil Carbon", body: "Using quantitative stable isotope probing to link microbial biodiversity to nitrogen cycling, carbon stabilization, and soil aggregate stability." }
+    - { meta: "02", title: "Pasture Biodiversity", body: "Characterizing plant community composition and structure across central Appalachian pastures and how diversity drives soil health." }
+    - { meta: "03", title: "Farmer Partnerships", body: "Co-designing soil health demonstration trials with Appalachian producers to make grazing more sustainable and carbon-smart." }
+
+# ---- Current projects (two cards) ----
+projects:
+  kicker: "Current Projects"
+  heading: "Where I'm working now"
+  cards:
+    - meta: "USDA AMP · 2024–2028 · $4.8M"
+      title: "GRASS Project"
+      body_html: "GRazing Appalachia SuStainably — working directly with <strong>135 farmers</strong> to adopt climate-smart, soil-building grazing practices across the region. I serve as Soil Health Specialist and interim Program Coordinator through WVU Extension's Small Farms Center."
+    - meta: "USDA NRCS CIG · 2022–2026 · $1.0M"
+      title: "Diversifying Appalachia's Pastures"
+      body_html: "A Conservation Innovation Grant soil health demonstration trial testing how pasture plant diversity improves soil health and carbon storage across <strong>17 working farms</strong> in West Virginia."

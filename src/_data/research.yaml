@@ -1,0 +1,54 @@
+# ============================================================
+#  RESEARCH + PUBLICATIONS PAGE
+#  In "*_html" fields: <span class="me">Reed Close K</span> bolds your name,
+#  <span class="venue">Journal</span> italicizes a journal, and <a href="URL">text</a> is a link.
+# ============================================================
+
+head:
+  eyebrow: "Research & Publications"
+  title: "The living soil, from microbe to pasture"
+  intro: "My work integrates microbial ecology, plant community ecology, and biogeochemistry to understand and improve soil health in working Appalachian agroecosystems."
+
+# ---- Three research-interest cards ----
+interests:
+  - title: "Microbial Ecology &amp; Isotopes"
+    body: "Advancing field- and lab-based quantitative stable isotope probing (qSIP) to identify the microbes driving nitrogen assimilation, carbon cycling, and soil organic matter formation."
+  - title: "Soil Health &amp; Aggregate Stability"
+    body: "Linking actinobacteria, mycorrhizae, and microbial interactions to the physical stability of soil aggregates and long-term carbon stabilization."
+  - title: "Pasture Diversity &amp; Grazing"
+    body: "Quantifying pasture plant community composition and structure, and testing how diversifying pastures improves soil health and livestock-production sustainability."
+
+# ---- Publications ----
+publications:
+  kicker: "Peer-Reviewed &amp; Scholarly"
+  heading: "Publications"
+  lead_html: 'Author name in <span class="me">bold</span>. See also my <a href="https://orcid.org/0000-0001-5517-8664" target="_blank" rel="noopener">ORCID</a> and <a href="https://www.researchgate.net/profile/Kinsey-Reed-Close" target="_blank" rel="noopener">ResearchGate</a>.'
+  items:
+    - citation_html: '<span class="me">Reed Close K</span>, Kubesch J, Matthias J, Basden T, Kotcon J, Felton E, Sperow M, Macias A, Guthrie K, Schartiger R, Winslett R, LeMaster D, Morrissey EM. Pasture plant community composition and structure in central Appalachia.'
+      status: "In preparation."
+      key_finding_html: "A statewide survey of West Virginia pastures found <strong>low plant diversity and few legumes</strong>, with drought pushing pastures further toward tall-fescue dominance — underscoring the need to diversify pastures for resilience."
+
+    - citation_html: '<span class="me">Reed Close K</span>, LeMaster D, Schartiger R, Guthrie K, Kane J, Kotcon J, Morrissey EM. 2026. Actinobacteria, mycorrhizae, and the biology of soil aggregate stability. <span class="venue">Soil Biology and Biochemistry</span> 213:e110048. <a href="https://doi.org/10.1016/j.soilbio.2025.110048" target="_blank" rel="noopener">doi.org/10.1016/j.soilbio.2025.110048</a>'
+      key_finding_html: "Using PLFA profiling and SLAKES aggregate testing, <strong>Actinobacteria — not mycorrhizal fungi —</strong> were the microbes most strongly linked to stable soil aggregates, pointing to their role in erosion prevention and soil health."
+
+    - citation_html: '<span class="me">Reed Close K</span>. 2025. Microbial and plant biodiversity in Appalachian agroecosystems and their implications for soil health. <span class="venue">Graduate Theses, Dissertations, and Problem Reports</span> 13096. <a href="https://doi.org/10.33915/etd.13096" target="_blank" rel="noopener">doi.org/10.33915/etd.13096</a>'
+
+    - citation_html: 'Kane J*, <span class="me">Reed K*</span>, Hofmockel K, Leshyk V, Morrissey E, Dijkstra P, Schwartz E, Sihi D, Hungate B. 2025. Advances in stable isotope profiling (SIP) techniques to track plant–microbial interactions. In: Norton J, Schimel J, Lindo Z, eds. <span class="venue">Measuring and Assessing the Biological Health of Soils</span>. Burleigh Dodds Science Publishing; Chapter 7, pp. 157–194. <a href="https://doi.org/10.19103/AS.2025.0159.07" target="_blank" rel="noopener">doi.org/10.19103/AS.2025.0159.07</a>'
+      note_html: "*Equal contribution"
+
+    - citation_html: '<span class="me">Reed K</span>, Dang C, Walkup J, Purcell A, Hungate B, Morrissey EM. 2025. Comparing field and lab quantitative stable isotope probing for nitrogen assimilation in soil microbes. <span class="venue">Applied and Environmental Microbiology</span> 91:e01849-24. <a href="https://doi.org/10.1128/aem.01849-24" target="_blank" rel="noopener">doi.org/10.1128/aem.01849-24</a>'
+      key_finding_html: "Field and lab qSIP agreed closely (r&nbsp;=&nbsp;0.97, matching for 81% of the key nitrogen-cycling taxa). Between <strong>50–70% of added nitrogen</strong> ended up in plant biomass, and the most abundant <strong>5% of microbial taxa performed about a third</strong> (31–36%) of all nitrogen assimilation."
+
+    - citation_html: '<span class="me">Reed K</span>, Morrissey EM. 2022. Bridging ecology and agronomy to foster diverse pastures and healthy soils. <span class="venue">Agronomy</span> 12(8):1893. <a href="https://doi.org/10.3390/agronomy12081893" target="_blank" rel="noopener">doi.org/10.3390/agronomy12081893</a>'
+
+# ---- Grants ----
+grants:
+  kicker: "Funding"
+  heading: "Grants"
+  items:
+    - title: "Diversifying Appalachia's Pastures to Improve Soil Health"
+      sub: "USDA NRCS Conservation Innovation Grant — Soil Health Demonstration Trial · $1.0 million"
+      date: "2022–2026"
+    - title: "GRazing Appalachia SuStainably (GRASS)"
+      sub: "USDA Advancing Markets for Producers · $4.8 million"
+      date: "2024–2028"

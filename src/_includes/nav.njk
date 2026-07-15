@@ -1,0 +1,21 @@
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">{{ site.name }}<span style="color:var(--clay)">, {{ site.suffix }}</span></a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html"{% if page_id == "home" %} class="active"{% endif %}>Home</a></li>
+        <li><a href="research.html"{% if page_id == "research" %} class="active"{% endif %}>Research + Publications</a></li>
+        <li><a href="cv.html"{% if page_id == "cv" %} class="active"{% endif %}>CV</a></li>
+        <li><a href="outreach.html"{% if page_id == "outreach" %} class="active"{% endif %}>Outreach + Media</a></li>
+        <li class="has-dropdown">
+          <a class="dropdown-toggle" tabindex="0" aria-haspopup="true">Tools</a>
+          <ul class="dropdown">
+          {%- for t in tools.items %}
+            <li><a href="{{ t.url }}" target="_blank" rel="noopener">{{ t.name }}<small>{{ t.desc }}</small></a></li>
+          {%- endfor %}
+          </ul>
+        </li>
+        <li><a href="{% if page_id == "home" %}#contact{% else %}index.html#contact{% endif %}">Contact</a></li>
+      </ul>
+    </div>
+  </header>

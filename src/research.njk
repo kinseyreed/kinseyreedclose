@@ -1,0 +1,72 @@
+---
+layout: base.njk
+title: "Research & Publications — Kinsey Reed Close, PhD"
+description: "Research interests, peer-reviewed publications, and funded projects of Kinsey Reed Close, PhD — soil health and microbial ecology."
+page_id: research
+permalink: "research.html"
+---
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">{{ research.head.eyebrow }}</p>
+      <h1>{{ research.head.title }}</h1>
+      <p>{{ research.head.intro }}</p>
+    </div>
+  </section>
+
+{% include "ridge.njk" %}
+
+  <!-- INTERESTS -->
+  <section class="section">
+    <div class="wrap">
+      <div class="grid-3">
+      {%- for i in research.interests %}
+        <div class="card">
+          <h3>{{ i.title | safe }}</h3>
+          <p>{{ i.body | safe }}</p>
+        </div>
+      {%- endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section class="section alt">
+    <div class="wrap">
+      <p class="kicker">{{ research.publications.kicker | safe }}</p>
+      <h2>{{ research.publications.heading }}</h2>
+      <p class="lead">{{ research.publications.lead_html | safe }}</p>
+
+      <ol class="pub-list mt-2">
+      {%- for pub in research.publications.items %}
+        <li>
+          {{ pub.citation_html | safe }}
+          {%- if pub.status %} <span class="status">{{ pub.status }}</span>{% endif %}
+          {%- if pub.note_html %}<br><span class="e-sub">{{ pub.note_html | safe }}</span>{% endif %}
+          {%- if pub.key_finding_html %}
+          <div class="pub-fig"><b>Key finding</b>{{ pub.key_finding_html | safe }}</div>
+          {%- endif %}
+        </li>
+      {%- endfor %}
+      </ol>
+    </div>
+  </section>
+
+  <!-- GRANTS -->
+  <section class="section">
+    <div class="wrap">
+      <p class="kicker">{{ research.grants.kicker }}</p>
+      <h2>{{ research.grants.heading }}</h2>
+      <div class="block mt-2">
+      {%- for g in research.grants.items %}
+        <div class="entry">
+          <div class="e-main">
+            <div class="e-title">{{ g.title }}</div>
+            <div class="e-sub">{{ g.sub }}</div>
+          </div>
+          <div class="e-date">{{ g.date }}</div>
+        </div>
+      {%- endfor %}
+      </div>
+      <p class="center"><a class="btn ghost" href="cv.html">See full CV &rarr;</a></p>
+    </div>
+  </section>

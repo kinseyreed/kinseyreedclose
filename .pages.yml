@@ -1,0 +1,284 @@
+# Pages CMS configuration — defines the editing dashboard at app.pagescms.org
+# Docs: https://pagescms.org/docs/
+
+media:
+  input: src/assets          # where uploaded files are stored in the repo
+  output: assets             # how they are referenced on the site (keep relative — no leading slash)
+  extensions: [jpg, jpeg, png, webp, gif, svg, pdf]
+
+content:
+  # -------------------------------------------------------------------------
+  - name: site
+    label: Site & Contact
+    type: file
+    path: src/_data/site.yaml
+    format: yaml
+    fields:
+      - { name: name, label: Your name, type: string }
+      - { name: suffix, label: Suffix (e.g. PhD), type: string }
+      - { name: tagline, label: Tagline, type: string }
+      - { name: role, label: Role, type: string }
+      - { name: university, label: University, type: string }
+      - { name: lab, label: Lab, type: string }
+      - { name: location, label: Location, type: string }
+      - { name: email, label: Email, type: string }
+      - { name: linkedin_url, label: LinkedIn URL, type: string }
+      - { name: linkedin_label, label: LinkedIn label, type: string }
+      - { name: orcid_id, label: ORCID iD, type: string }
+      - { name: orcid_url, label: ORCID URL, type: string }
+      - { name: researchgate_url, label: ResearchGate URL, type: string }
+      - { name: contact_heading, label: Footer contact heading, type: string }
+      - { name: contact_blurb, label: Footer contact blurb, type: text }
+
+  # -------------------------------------------------------------------------
+  - name: tools
+    label: Tools menu
+    type: file
+    path: src/_data/tools.yaml
+    format: yaml
+    fields:
+      - name: items
+        label: Tool links
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string }
+          - { name: desc, label: Short description, type: string }
+          - { name: url, label: URL, type: string }
+
+  # -------------------------------------------------------------------------
+  - name: home
+    label: Home page
+    type: file
+    path: src/_data/home.yaml
+    format: yaml
+    fields:
+      - name: hero
+        label: Hero banner
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow line, type: string }
+          - { name: heading_html, label: Big heading (use <em>word</em> for goldenrod italic, <br> for a line break), type: string }
+          - { name: image, label: Hero photo, type: image }
+          - { name: cv_label, label: CV button text, type: string }
+          - name: keywords
+            label: Keyword list
+            type: object
+            list: true
+            fields:
+              - { name: text, label: Keyword, type: string }
+              - { name: emphasis, label: Highlight (goldenrod)?, type: boolean }
+      - name: about
+        label: About Me
+        type: object
+        fields:
+          - { name: kicker, label: Kicker, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: portrait, label: Portrait photo, type: image }
+          - { name: paragraphs, label: Paragraphs, type: text, list: true }
+          - { name: pills, label: Topic pills, type: string, list: true }
+      - name: stats
+        label: Stat band
+        type: object
+        list: true
+        fields:
+          - { name: num, label: Number, type: string }
+          - { name: label, label: Label, type: string }
+      - name: focus
+        label: Research focus
+        type: object
+        fields:
+          - { name: kicker, label: Kicker, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: lead, label: Lead sentence, type: text }
+          - name: cards
+            label: Cards
+            type: object
+            list: true
+            fields:
+              - { name: meta, label: Small label, type: string }
+              - { name: title, label: Title, type: string }
+              - { name: body, label: Body, type: text }
+      - name: projects
+        label: Current projects
+        type: object
+        fields:
+          - { name: kicker, label: Kicker, type: string }
+          - { name: heading, label: Heading, type: string }
+          - name: cards
+            label: Project cards
+            type: object
+            list: true
+            fields:
+              - { name: meta, label: Small label, type: string }
+              - { name: title, label: Title, type: string }
+              - { name: body_html, label: Body (use <strong>text</strong> for bold), type: text }
+
+  # -------------------------------------------------------------------------
+  - name: research
+    label: Research & Publications
+    type: file
+    path: src/_data/research.yaml
+    format: yaml
+    fields:
+      - name: head
+        label: Page header
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Intro, type: text }
+      - name: interests
+        label: Research interest cards
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: body, label: Body, type: text }
+      - name: publications
+        label: Publications
+        type: object
+        fields:
+          - { name: kicker, label: Kicker, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: lead_html, label: Lead line, type: text }
+          - name: items
+            label: Publication list
+            type: object
+            list: true
+            fields:
+              - { name: citation_html, label: "Citation (bold your name with <span class=\"me\">Reed Close K</span>; italicize a journal with <span class=\"venue\">Journal</span>; link with <a href=\"URL\">text</a>)", type: text }
+              - { name: status, label: "Status (optional, e.g. In preparation.)", type: string }
+              - { name: note_html, label: Note (optional, e.g. *Equal contribution), type: string }
+              - { name: key_finding_html, label: Key finding highlight (optional), type: text }
+      - name: grants
+        label: Grants
+        type: object
+        fields:
+          - { name: kicker, label: Kicker, type: string }
+          - { name: heading, label: Heading, type: string }
+          - name: items
+            label: Grant list
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: sub, label: Funder / amount, type: string }
+              - { name: date, label: Years, type: string }
+
+  # -------------------------------------------------------------------------
+  - name: cv
+    label: CV page
+    type: file
+    path: src/_data/cv.yaml
+    format: yaml
+    fields:
+      - name: head
+        label: Page header
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro_html, label: Intro, type: text }
+          - { name: pdf, label: "CV PDF path (upload the PDF under Media, then paste its path, e.g. assets/Kinsey_Reed_Close_CV.pdf)", type: string }
+          - { name: pdf_label, label: PDF button text, type: string }
+      - name: education
+        label: Education
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Degree / title, type: string }
+          - { name: sub_html, label: Details, type: text }
+          - { name: date, label: Date, type: string }
+      - name: positions
+        label: Positions held
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: sub, label: Institution, type: string }
+          - { name: date, label: Years, type: string }
+      - name: awards
+        label: Awards & recognitions
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Award, type: string }
+          - { name: date, label: Year, type: string }
+      - { name: invited_talks, label: Invited talks & seminars, type: text, list: true }
+      - { name: presentations, label: Conference & academic presentations, type: text, list: true }
+      - name: teaching
+        label: Teaching
+        type: object
+        fields:
+          - { name: courses, label: Courses, type: text, list: true }
+          - { name: guest, label: Guest lectures, type: text, list: true }
+          - { name: tutoring, label: Tutoring, type: text, list: true }
+      - name: mentorship
+        label: Mentorship
+        type: object
+        fields:
+          - { name: intro, label: Intro line, type: string }
+          - { name: mentees, label: Mentees, type: text, list: true }
+          - { name: note_html, label: Footnote key, type: text }
+      - { name: leadership, label: Leadership, type: text, list: true }
+      - { name: service, label: Scholarly service, type: text, list: true }
+      - { name: societies, label: Society memberships, type: string, list: true }
+      - { name: certifications, label: Certifications & training, type: text, list: true }
+      - name: references
+        label: References
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string }
+          - { name: role, label: Relationship, type: string }
+          - { name: affil, label: Affiliation, type: string }
+      - { name: references_note, label: References note, type: string }
+
+  # -------------------------------------------------------------------------
+  - name: outreach
+    label: Outreach & Media
+    type: file
+    path: src/_data/outreach.yaml
+    format: yaml
+    fields:
+      - name: head
+        label: Page header
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Intro, type: text }
+      - name: community
+        label: Community outreach
+        type: object
+        fields:
+          - { name: heading, label: Section heading, type: string }
+          - { name: items, label: Items, type: text, list: true }
+      - name: videos
+        label: Video productions
+        type: object
+        fields:
+          - { name: heading, label: Section heading, type: string }
+          - name: items
+            label: Videos
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: meta, label: Source / year, type: string }
+              - { name: url, label: URL, type: string }
+              - { name: link_text, label: Link text, type: string }
+      - name: coverage
+        label: Press & coverage groups
+        type: object
+        list: true
+        fields:
+          - { name: heading, label: Group heading, type: string }
+          - name: items
+            label: Links
+            type: object
+            list: true
+            fields:
+              - { name: text, label: Text, type: string }
+              - { name: url, label: URL, type: string }
