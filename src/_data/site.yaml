@@ -1,20 +1,17 @@
-# Site-wide identity and contact details (used in the header, footer, and page titles)
-name: "Kinsey Reed Close"
-suffix: "PhD"
-tagline: "Soil Health & Microbial Ecology"
-role: "Postdoctoral Researcher"
-university: "West Virginia University"
-lab: "Morrissey Microbial Ecology, Biogeochemistry & Soil Health Lab"
-location: "Morgantown, West Virginia"
-
-# Contact + profile links (shown in the footer of every page)
-email: "kyreed@mail.wvu.edu"
-linkedin_url: "https://www.linkedin.com/in/kinseyreed"
-linkedin_label: "linkedin.com/in/kinseyreed"
-orcid_id: "0000-0001-5517-8664"
-orcid_url: "https://orcid.org/0000-0001-5517-8664"
-researchgate_url: "https://www.researchgate.net/profile/Kinsey-Reed-Close"
-
-# Short blurb shown next to the contact links in the home-page footer
-contact_heading: "Let's connect"
-contact_blurb: "I'm always glad to talk soil health, microbial ecology, pasture research, science communication, and collaborations with farmers and researchers."
+name: Kinsey Reed Close
+suffix: PhD
+tagline: Soil Health & Microbial Ecology
+role: Postdoctoral Researcher
+university: West Virginia University
+lab: Morrissey Microbial Ecology, Biogeochemistry & Soil Health Lab
+location: Morgantown, West Virginia
+email: kyreed@mail.wvu.edu
+linkedin_url: https://www.linkedin.com/in/kinseyreed
+linkedin_label: linkedin.com/in/kinseyreed
+orcid_id: 0000-0001-5517-8664
+orcid_url: https://orcid.org/0000-0001-5517-8664
+researchgate_url: https://www.researchgate.net/profile/Kinsey-Reed-Close
+contact_heading: Find me at
+contact_blurb: I'm always glad to talk soil health, microbial ecology, pasture
+  research, science communication, and collaborations with farmers, researchers,
+  and industry/non-profit partners.
