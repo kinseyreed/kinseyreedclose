@@ -1,9 +1,7 @@
-# Links shown in the "Tools" dropdown in the top navigation.
-# Add, remove, or reorder items freely.
 items:
-  - name: "Appalachian Pasture Planner"
-    desc: "Plan diverse, soil-building pastures"
-    url: "https://kinseyreed.github.io/appalachian-pasture-planner/"
-  - name: "WV Grass Vegetative ID"
-    desc: "ID grasses without seedheads"
-    url: "https://kinseyreed.github.io/identikit/vis.html"
+  - name: Appalachian Pasture Planner
+    desc: Plan diverse, soil-building pastures
+    url: https://kinseyreed.github.io/appalachian-pasture-planner/
+  - name: Appalachian Grass ID - Interactive Key
+    desc: ID local grasses even without seedheads
+    url: https://kinseyreed.github.io/identikit/vis.html
