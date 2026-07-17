@@ -1,7 +1,7 @@
 hero:
   eyebrow: Agroecologist · West Virginia University
   heading_html: From the<br><em>ground</em> up
-  image: assets/KSA.jpg
+  image: assets/IMG_6541-1.jpg
   cv_label: View my CV →
   keywords:
     - text: soil health
@@ -57,18 +57,19 @@ stats:
     label: Peer-reviewed works
   - num: $5.8M
     label: Total Acquired Grant and Fellowship Funding
-  - num: "145"
+  - num: ~145
     label: Farm Partners
 focus:
-  kicker: What I Do
-  heading: Research focus
-  lead: Understanding the living soil — and putting that knowledge to work for
+  kicker: What I've Done
+  heading: Recent Work
+  lead: Understanding the living soil, and putting that knowledge to work for
     farmers and the land.
   cards:
     - meta: "01"
       title: Microbes &amp; Soil Carbon
-      body: Using quantitative stable isotope probing to link microbial biodiversity
-        to nitrogen cycling, carbon stabilization, and soil aggregate stability.
+      body: Using quantitative stable isotope probing and other cutting-edge
+        approaches to link microbial biodiversity to nitrogen cycling, carbon
+        stabilization, and soil aggregate stability.
     - meta: "02"
       title: Pasture Biodiversity
       body: Characterizing plant community composition and structure across central
@@ -79,14 +80,14 @@ focus:
         to make grazing more sustainable and carbon-smart.
 projects:
   kicker: Current Projects
-  heading: Where I'm working now
+  heading: "What I'm Currently "
   cards:
     - meta: USDA AMP · 2024–2028 · $4.8M
       title: GRASS Project
       body_html: GRazing Appalachia SuStainably — working directly with <strong>135
         farmers</strong> to adopt climate-smart, soil-building grazing practices
-        across the region. I serve as Soil Health Specialist and interim Program
-        Coordinator through WVU Extension's Small Farms Center.
+        across the region. I serve as the Soil Health Specialist through WVU
+        Extension's Small Farms Center.
     - meta: USDA NRCS CIG · 2022–2026 · $1.0M
       title: Diversifying Appalachia's Pastures
       body_html: A Conservation Innovation Grant soil health demonstration trial
