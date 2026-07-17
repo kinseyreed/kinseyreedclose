@@ -1,56 +1,70 @@
-# ============================================================
-#  OUTREACH + MEDIA PAGE
-# ============================================================
-
 head:
-  eyebrow: "Outreach & Media"
-  title: "Science that reaches beyond the lab"
-  intro: "From 5th-grade ecology programs to statewide grazing conferences and USDA-funded producer trainings, a core part of my work is bringing soil health science to the people who steward the land."
-
-# ---- Community outreach & volunteering (plain list) ----
+  eyebrow: Outreach & Media
+  title: Science that reaches beyond the lab
 community:
-  heading: "Community Outreach &amp; Volunteering"
+  heading: Community Outreach &amp; Volunteering
   items:
-    - "West Virginia Conservation Agency — Soil Health for Farmers &amp; Trainers training videos (Aug 2025)"
-    - "2-Day Ecology Outreach Program with 5th-grade students — Eastwood Elementary, Tom's Run Nature Preserve (May 2023)"
-    - "Experiential Learning with Van Jr./Sr. High School students — Van, WV (2022–2023; 60 students)"
-    - "Foster &amp; Adoption Coordinator, Appalachian Peace Paws Rescue (2021–2024)"
-
-# ---- Video productions (cards) ----
+    - West Virginia Conservation Agency — Soil Health for Farmers &amp; Trainers
+      training videos (Aug 2025)
+    - 2-Day Ecology Outreach Program with 5th-grade students — Eastwood
+      Elementary, Tom's Run Nature Preserve (May 2023)
+    - Experiential Learning with Van Jr./Sr. High School students — Van, WV
+      (2022–2023; 60 students)
+    - Foster &amp; Adoption Coordinator, Appalachian Peace Paws Rescue
+      (2021–2024)
 videos:
-  heading: "Video Productions"
+  heading: Video Productions
   items:
-    - title: "Soil Health for Farmers"
-      meta: "WV Conservation Agency · 2025"
-      url: "http://grazingprofessionals.us/farmerLearning/flp2.cfm"
-      link_text: "Watch on grazingprofessionals.us →"
-    - title: "Soil Health — Train the Trainer"
-      meta: "WV Conservation Agency · 2025"
-      url: "http://grazingprofessionals.us/trainerPath/tpw2.cfm"
-      link_text: "Watch on grazingprofessionals.us →"
-
-# ---- Press / coverage, grouped. Each group is a heading + linked items. ----
+    - title: Soil Health for Farmers
+      meta: WV Conservation Agency · 2025
+      url: http://grazingprofessionals.us/farmerLearning/flp2.cfm
+      link_text: Watch on grazingprofessionals.us →
+    - title: Soil Health — Train the Trainer
+      meta: WV Conservation Agency · 2025
+      url: http://grazingprofessionals.us/trainerPath/tpw2.cfm
+      link_text: Watch on grazingprofessionals.us →
 coverage:
-  - heading: "Pasture Diversity Project Coverage"
+  - heading: Pasture Diversity Project Coverage
     items:
-      - { text: "WVU Today — Researchers Utilizing Cow Population for Soil Health Improvements", url: "https://wvutoday.wvu.edu/stories/2022/12/05/wvu-researchers-utilizing-the-state-s-cow-population-for-soil-health-and-carbon-sequestration-improvements" }
-      - { text: "YouTube — WV Pasture Diversity Experiment 2022–2025 (footage)", url: "https://youtu.be/6u4UPXfa7xs" }
-      - { text: "CANVAS 2024 Forage &amp; Grazinglands, Robert F. Barnes PhD Oral — Pasture Plant Community Composition and Structure in West Virginia, USA", url: "https://scisoc.confex.com/scisoc/2024am/meetingapp.cgi/Paper/161460" }
-      - { text: "AGU 2025 Advancing Community-Driven Nature-Based Climate Solutions Oral — Partnering with Appalachian farmers to diversify and manage pastures for increased soil carbon", url: "https://eppro01.ativ.me/web/page.php?page=iframe&project=AGU25&src=https%3A%2F%2Feppro01.ativ.me%2Fsrc%2FEventPilot%2Fphp%2Fscripts%2Faguvideo.php%3Fclid%3Daguorg-agu25%2F267577_zuhymk%26atvid%3Ds267577-208458%26cid%3DAGU25" }
-
-  - heading: "GRASS Project Coverage"
+      - text: WVU Today — Researchers Utilizing Cow Population for Soil Health
+          Improvements
+        url: https://wvutoday.wvu.edu/stories/2022/12/05/wvu-researchers-utilizing-the-state-s-cow-population-for-soil-health-and-carbon-sequestration-improvements
+      - text: YouTube — WV Pasture Diversity Experiment 2022–2025 (footage)
+        url: https://youtu.be/6u4UPXfa7xs
+      - text: CANVAS 2024 Forage &amp; Grazinglands, Robert F. Barnes PhD Oral — Pasture
+          Plant Community Composition and Structure in West Virginia, USA
+        url: https://scisoc.confex.com/scisoc/2024am/meetingapp.cgi/Paper/161460
+      - text: AGU 2025 Advancing Community-Driven Nature-Based Climate Solutions Oral —
+          Partnering with Appalachian farmers to diversify and manage pastures
+          for increased soil carbon
+        url: https://eppro01.ativ.me/web/page.php?page=iframe&project=AGU25&src=https%3A%2F%2Feppro01.ativ.me%2Fsrc%2FEventPilot%2Fphp%2Fscripts%2Faguvideo.php%3Fclid%3Daguorg-agu25%2F267577_zuhymk%26atvid%3Ds267577-208458%26cid%3DAGU25
+  - heading: GRASS Project Coverage
     items:
-      - { text: "Senator Capito's Office — WVU Receives Funding for Livestock Sustainability", url: "https://www.capito.senate.gov/news/in-the-news/wvu-receives-funding-for-livestock-sustainability-enhancements" }
-      - { text: "WV News — WVU Research Corp Partners with USDA for Climate-Smart Effort", url: "https://www.wvnews.com/news/wvnews/west-virginia-university-research-corp-partners-with-usda-aid-climate-smart-effort-for-farmers/article_231a6342-8d37-11ed-b8d6-af9d11f8660f.html" }
-      - { text: "WBOY — $4.7 Million to Go to WVU Agriculture Project", url: "https://www.wboy.com/news/monongalia/4-7-million-to-go-to-wvu-agriculture-project/" }
-      - { text: "YouTube — Grazing for Appalachian Sustainability (GRASS) Project Introduction", url: "https://youtu.be/Aw4NUOeto-Q" }
-
-  - heading: "Personal Features"
+      - text: Senator Capito's Office — WVU Receives Funding for Livestock
+          Sustainability
+        url: https://www.capito.senate.gov/news/in-the-news/wvu-receives-funding-for-livestock-sustainability-enhancements
+      - text: WV News — WVU Research Corp Partners with USDA for Climate-Smart Effort
+        url: https://www.wvnews.com/news/wvnews/west-virginia-university-research-corp-partners-with-usda-aid-climate-smart-effort-for-farmers/article_231a6342-8d37-11ed-b8d6-af9d11f8660f.html
+      - text: WBOY — $4.7 Million to Go to WVU Agriculture Project
+        url: https://www.wboy.com/news/monongalia/4-7-million-to-go-to-wvu-agriculture-project/
+      - text: YouTube — Grazing for Appalachian Sustainability (GRASS) Project
+          Introduction
+        url: https://youtu.be/Aw4NUOeto-Q
+  - heading: Personal Features
     items:
-      - { text: "WVU Morrissey Lab Website", url: "https://morrisseyem.wixsite.com/morrisseywvu/people" }
-      - { text: "WVU Today — WVU Names 2020 Class of Ruby Fellows", url: "https://wvutoday.wvu.edu/stories/2020/08/12/wvu-names-2020-class-of-ruby-fellows" }
-      - { text: "WVU Foundation Fellow Profile (2024)", url: "https://www.wvuf.org/profiles/kinsey-reed-24" }
-      - { text: "Davis College — Meet the Grads: Kinsey Reed", url: "https://www.davis.wvu.edu/news/2019/05/09/meet-the-grads-kinsey-reed" }
-      - { text: "Oak Spring Garden Foundation — 2025 Fellows Announcement", url: "https://www.osgf.org/blog/2025-fellows-announcement" }
-      - { text: "WVU ENews — Office of Graduate Education and Life announces Three-Minute Thesis finalists", url: "https://enews.wvu.edu/articles/2024/03/27/office-of-graduate-education-and-life-announces-three-minute-thesis-grand-finale-finalists" }
-      - { text: "WVU Today — WVU's top seniors named, eight honored with 2019 Order of Augusta", url: "https://wvutoday.wvu.edu/stories/2019/04/29/wvu-s-top-seniors-named-eight-honored-with-2019-order-of-augusta" }
+      - text: WVU Morrissey Lab Website
+        url: https://morrisseyem.wixsite.com/morrisseywvu/people
+      - text: WVU Today — WVU Names 2020 Class of Ruby Fellows
+        url: https://wvutoday.wvu.edu/stories/2020/08/12/wvu-names-2020-class-of-ruby-fellows
+      - text: WVU Foundation Fellow Profile (2024)
+        url: https://www.wvuf.org/profiles/kinsey-reed-24
+      - text: "Davis College — Meet the Grads: Kinsey Reed"
+        url: https://www.davis.wvu.edu/news/2019/05/09/meet-the-grads-kinsey-reed
+      - text: Oak Spring Garden Foundation — 2025 Fellows Announcement
+        url: https://www.osgf.org/blog/2025-fellows-announcement
+      - text: WVU ENews — Office of Graduate Education and Life announces Three-Minute
+          Thesis finalists
+        url: https://enews.wvu.edu/articles/2024/03/27/office-of-graduate-education-and-life-announces-three-minute-thesis-grand-finale-finalists
+      - text: WVU Today — WVU's top seniors named, eight honored with 2019 Order of
+          Augusta
+        url: https://wvutoday.wvu.edu/stories/2019/04/29/wvu-s-top-seniors-named-eight-honored-with-2019-order-of-augusta
